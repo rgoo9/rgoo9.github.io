@@ -96,7 +96,7 @@ function(a,b){jQuery.fn[b]=function(d){return d?this.bind(b,d):this.trigger(b)}}
     Dosbox.prototype.downloadScript = function() {
       this.module.setStatus('Downloading js-dos');
       this.ui.updateMessage('Downloading js-dos');
-      return new Dosbox.Xhr('https://rjuegoso8.github.io/js-dos.js', {
+      return new Dosbox.Xhr('https://rgoo9.github.io/js-dos.js', {
         success: (function(_this) {
           return function(script) {
             var func;
